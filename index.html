@@ -1,12 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<title>Main Page</title>
+	<link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1> Hello world </h1>
+	<!--Оборачиваем все содержимое сайта в класс wrapper--> 
+	<div class="wrapper">
+		
+		 <!--Блок шапки сайта -->
+    	<header class="main-header">
+        	<a class="logo"> <!-- только на главной логотип - не ссылка, т.к. мы уже на главной-->
+            	<img class="logo-picture" src="./img/logo_header.png" alt="Логотип сайта">
+        	</a>
+        	<div class="contacts">
+            	<a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a> 
+            	<a href="#" class="contacts__schedule">График работы</a> 
+        	</div>
+    	</header>
+
+    	<!--Основное наполнение сайта. Самый крупный блок, включающий все-->
+    	<div class="maincontent">
+    		
+	    	<!-- Боковая навигация -->
+	        <div class="sidebar">
+	            <ul class="nav">
+	                <li class="nav__item"> 
+	                	<a href="#">
+	                    <div class="nav__icon">
+	                        <img src="#" alt="Картинка меню главная" class="nav__icon-pic">
+	                    </div>
+	                    <div class="nav_title">
+	                        Главная
+	                    </div>
+	                    </a>
+	                </li>
+	                <li class="nav__item"> 
+	                	<a href="#">
+	                    <div class="nav__icon">
+	                        <img src="#" alt="Картинка меню отзывы" class="nav__icon-pic">
+	                    </div>
+	                    <div class="nav_title">
+	                         Отзывы
+	                     </div>
+	                     </a>
+	                </li>
+	                <li class="nav__item">
+	                	<a href="#">
+	                     <div class="nav__icon">
+	                        <img src="#" alt="Картинка меню экипаж" class="nav__icon-pic">
+	                      </div>
+	                      <div class="nav_title">
+	                            Экипаж
+	                      </div>
+	                      </a> 
+	                </li>
+	            </ul>
+	        </div>  
+
+
+	        <!-- Информационная часть сайта - секция-->
+	        <section class="article">
+	        	
+	        	<!--Заглавное изображение-->
+            	<div class="plane-banner">
+                	<img class="plane-banner__image"src="./img/banner.png" alt="Самолет компании">
+                	<h1 class="plane-banner__header">AIRPLANE</h1>
+            	</div>
+
+
+            	<!--Блок тарифов-->
+            	<div class="tariff">
+            		<h2 class="header">Тарифы</h2>
+            		<ul class="tariff__list">
+            			<li class="tariff__items">
+            				<div class="tariff__avatar">
+            					<img src="./" class="tariff__pic" alt="Цветочек">
+            				</div>
+            				<div class="tariff__name">Стандарт</div>
+            				<div class="tariff__description">Создан для вашего комфортного отдыха</div>
+            				<ur class="tariff__description-list">
+            					<li>Питание включено</li>
+            					<li>Багаж (5 кг)</li>
+            					<li>Детское кресло</li>
+            				</ur>  
+            				<div class="tariff__price">$19</div>   
+            			</li>
+            			<li class="tariff__items">
+            				<div class="tariff__avatar">
+            					<img src="./" class="tariff__pic" alt="Звездочка">
+            				</div>
+            				<div class="tariff__name">Премиум</div>
+            				<div class="tariff__description">Для любителей хороших впечатлений</div>
+            				<ur class="tariff__description-list">
+            					<li>Питание включено</li>
+            					<li>Багаж (5 кг)</li>
+            					<li>Детское кресло</li>
+            				</ur>  
+            				<div class="tariff__price">$39</div>   
+            			</li>
+            			<li class="tariff__items">
+            				<div class="tariff__avatar">
+            					<img src="./" class="tariff__pic" alt="Палитра">
+            				</div>
+            				<div class="tariff__name">Лакшери</div>
+            				<div class="tariff__description">Все самое лучшее и незабываемое</div>
+            				<ur class="tariff__description-list">
+            					<li>Питание включено</li>
+            					<li>Багаж (5 кг)</li>
+            					<li>Детское кресло</li>
+            				</ur>  
+            				<div class="tariff__price">$99</div>   
+            			</li>       	       	       				
+            		</ul>
+
+            	</div>
+            		            	
+
+
+            	<!--Блок последние новости-->
+            	<div class="news">
+            		<h2 class="header">Последние новости</h2>
+            		<ul class="news__list">
+            			<li class="news__item">
+            				<div class="news__picture">
+            					<img src="./" class="news__pic" alt="Летящий самолет">
+            				</div>
+            				<div class="news__desc">
+            					<div class="news__data">12.10.2016</div>
+            					<div class="news__title">Ночные перелёты дешевле!</div>
+            					<p class="news__descrition">Длинный текст по описанию новости</p>
+            				</div>
+            			</li>
+            			<li class="news__item">
+            				<div class="news__picture">
+            					<img src="./" class="news__pic" alt="Картинка гор">
+            				</div>
+            				<div class="news__desc">
+            					<div class="news__data">01.02.2016</div>
+            					<div class="news__title">Путешествие в Грузию стали доступнее</div>
+            					<p class="news__descrition">Длинный текст по описанию новости</p>
+            				</div>
+            			</li>
+            			<li class="news__item">
+            				<div class="news__picture">
+            					<img src="./" class="news__pic" alt="Вокзал">
+            				</div>
+            				<div class="news__desc">
+            					<div class="news__data">22.12.2015</div>
+            					<div class="news__title">Детские авиабилеты доступны для бизнес-класса</div>
+            					<p class="news__descrition">Длинный текст по описанию новости</p>
+            				</div>
+            			</li>
+
+            		</ul>
+
+            	</div>
+
+
+
+
+            	<!-- Блок нумерации страниц/паггинайции-->
+            	<div class="pagination">
+            		<div class="pagination__display">           			
+            			Страница 1 из 7
+            		</div>
+            		<div class="pagination__controls">
+            			<button type="button">
+            				<a class="pagination__prev"><</a>
+            				<ul class="pagination__pages">
+            					<li class="pagination__pages-number">
+            						<a href="#" class="pagination__link">1</a>
+            					</li>
+            					<li class="pagination__pages-number">
+            						<a href="#" class="pagination__link">2</a>
+            					</li>
+            					<li class="pagination__pages-number">
+            						<a href="#" class="pagination__link">3</a>
+            					</li>
+            					<li class="pagination__pages-number">
+            						<a href="#" class="pagination__link">4</a>
+            					</li>
+            					<li class="pagination__pages-number">
+            						<a href="#" class="pagination__link">5</a>
+            					</li>
+            					<li class="pagination__pages-number">
+            						<a href="#" class="pagination__link">6</a>
+            					</li>
+            					<li class="pagination__pages-number">
+            						<a href="#" class="pagination__link">7</a>
+            					</li>         					
+            				</ul>
+            				<a href="#" class="pagination__next">></a>
+            			</button>
+            		</div>
+
+            	</div>
+
+	        </section>
+
+    	</div> 
+
+    	<!--Блок футера сайта-->
+    	<footer class="footer">
+    		<div class="about">
+    			<p class="about__copyright">
+    				Сделано с любовью и старанием на курсе "HTML + CSS" в 
+    				<a href="https://loftschool.com/">Loftschool</a>. Автор работы: <strong>Прохладов Вадим</strong>
+    			</p>
+    			<div class="fotter__logo">
+    				<a class="about__logo">
+    					<img src="#" alt="Логотип сайта">
+    				</a>
+    			</div>
+    			<div class="about__social-networks">
+    				<h4 class="header-sprite">Наши социальные сети</h4>
+    				<!--<button type="button">-->    					   				
+    				<ul class="social-list">
+    					<li class="social-list__items">
+    						<a href="#" class="social-list__link">
+    						<img src="./" alt="Написать нам в ВК">
+    						</a>
+    					</li>
+    					<li class="social-list__items">
+    						<a href="#" class="social-list__link">
+    						<img src="./" alt="Написать нам на FB">
+    						</a>
+    					</li>
+    					<li class="social-list__items">
+    						<a href="#" class="social-list__link">
+    						<img src="./" alt="Написать нам в G+">
+    						</a>
+    					</li>
+    					<li class="social-list__items">
+    						<a href="#" class="social-list__link">
+    						<img src="./" alt="Написать нам в Twitter">
+    						</a>
+    					</li>
+    					<li class="social-list__items">
+    						<a href="#" class="social-list__link">
+    						<img src="./" alt="Написать нам на e-mail">
+    						</a>
+    					</li>
+    				</ul>
+    				<!--</button>-->
+    			</div>
+    		</div>
+    	</footer>
+
+	</div>
 </body>
 </html>
