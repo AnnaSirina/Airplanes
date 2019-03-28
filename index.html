@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Main Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./styles/header.css">
 	<link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
 	<!--Оборачиваем все содержимое сайта в класс wrapper--> 
 	<div class="wrapper">
 		
 		 <!--Блок шапки сайта -->
-    	<header class="main-header">
+    	<header class="header">
         	<a class="logo"> <!-- только на главной логотип - не ссылка, т.к. мы уже на главной-->
             	<img class="logo-picture" src="./img/logo_header.png" alt="Логотип сайта">
         	</a>
         	<div class="contacts">
             	<a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a> 
-            	<a href="#" class="contacts__schedule">График работы</a> 
+            	 
         	</div>
+			<div class="schedule">
+				<a href="#" class="shedule__schedule-link">График работы</a>
+				<div class="graf">
+				<p class="graf__days">пн-вс: 09:00-20.00 </p>
+				<p class="graf__lunch-time">обед: 14:00-14:30</p>
+				</div>
+			</div>
     	</header>
 
     	<!--Основное наполнение сайта. Самый крупный блок, включающий все-->
@@ -31,7 +41,7 @@
 	                <li class="nav__item"> 
 	                	<a href="#">
 	                    <div class="nav__icon">
-	                        <img src="#" alt="Картинка меню главная" class="nav__icon-pic">
+	                        <img src="./img/main_icon.png" alt="Картинка меню главная" class="nav__icon-pic">
 	                    </div>
 	                    <div class="nav_title">
 	                        Главная
@@ -41,7 +51,7 @@
 	                <li class="nav__item"> 
 	                	<a href="#">
 	                    <div class="nav__icon">
-	                        <img src="#" alt="Картинка меню отзывы" class="nav__icon-pic">
+	                        <img src="./img/feed_icon.png" alt="Картинка меню отзывы" class="nav__icon-pic">
 	                    </div>
 	                    <div class="nav_title">
 	                         Отзывы
@@ -51,7 +61,7 @@
 	                <li class="nav__item">
 	                	<a href="#">
 	                     <div class="nav__icon">
-	                        <img src="#" alt="Картинка меню экипаж" class="nav__icon-pic">
+	                        <img src="./img/team_icon.png" alt="Картинка меню экипаж" class="nav__icon-pic">
 	                      </div>
 	                      <div class="nav_title">
 	                            Экипаж
@@ -63,7 +73,7 @@
 
 
 	        <!-- Информационная часть сайта - секция-->
-	        <section class="article">
+	        <div class="article">
 	        	
 	        	<!--Заглавное изображение-->
             	<div class="plane-banner">
@@ -74,11 +84,11 @@
 
             	<!--Блок тарифов-->
             	<div class="tariff">
-            		<h2 class="header">Тарифы</h2>
+            		<h2 class="section-header">Тарифы</h2>
             		<ul class="tariff__list">
             			<li class="tariff__items">
             				<div class="tariff__avatar">
-            					<img src="./" class="tariff__pic" alt="Цветочек">
+            					<img src="./img/ellipse_2.png" class="tariff__pic" alt="Цветочек">
             				</div>
             				<div class="tariff__name">Стандарт</div>
             				<div class="tariff__description">Создан для вашего комфортного отдыха</div>
@@ -91,20 +101,20 @@
             			</li>
             			<li class="tariff__items">
             				<div class="tariff__avatar">
-            					<img src="./" class="tariff__pic" alt="Звездочка">
+            					<img src="./img/ellipse_2.png" class="tariff__pic" alt="Звездочка">
             				</div>
             				<div class="tariff__name">Премиум</div>
             				<div class="tariff__description">Для любителей хороших впечатлений</div>
             				<ur class="tariff__description-list">
-            					<li>Питание включено</li>
-            					<li>Багаж (5 кг)</li>
-            					<li>Детское кресло</li>
+            					<li class="tarrif__plus">Питание включено</li>
+            					<li> class="tarrif__plus"Багаж (5 кг)</li>
+            					<li class="tarrif__plus">Детское кресло</li>
             				</ur>  
             				<div class="tariff__price">$39</div>   
             			</li>
             			<li class="tariff__items">
             				<div class="tariff__avatar">
-            					<img src="./" class="tariff__pic" alt="Палитра">
+            					<img src="./img/ellipse_2.png" class="tariff__pic" alt="Палитра">
             				</div>
             				<div class="tariff__name">Лакшери</div>
             				<div class="tariff__description">Все самое лучшее и незабываемое</div>
@@ -123,11 +133,11 @@
 
             	<!--Блок последние новости-->
             	<div class="news">
-            		<h2 class="header">Последние новости</h2>
+            		<h2 class="section-header">Последние новости</h2>
             		<ul class="news__list">
             			<li class="news__item">
             				<div class="news__picture">
-            					<img src="./" class="news__pic" alt="Летящий самолет">
+            					<img src="./img/planeflying1.png" class="news__pic" alt="Летящий самолет">
             				</div>
             				<div class="news__desc">
             					<div class="news__data">12.10.2016</div>
@@ -137,7 +147,7 @@
             			</li>
             			<li class="news__item">
             				<div class="news__picture">
-            					<img src="./" class="news__pic" alt="Картинка гор">
+            					<img src="./img/photo.png" class="news__pic" alt="Картинка гор">
             				</div>
             				<div class="news__desc">
             					<div class="news__data">01.02.2016</div>
@@ -147,7 +157,7 @@
             			</li>
             			<li class="news__item">
             				<div class="news__picture">
-            					<img src="./" class="news__pic" alt="Вокзал">
+            					<img src="./img/Child.png" class="news__pic" alt="Вокзал">
             				</div>
             				<div class="news__desc">
             					<div class="news__data">22.12.2015</div>
@@ -200,7 +210,7 @@
 
             	</div>
 
-	        </section>
+	        </div>
 
     	</div> 
 
@@ -211,15 +221,16 @@
     				Сделано с любовью и старанием на курсе "HTML + CSS" в 
     				<a href="https://loftschool.com/">Loftschool</a>. Автор работы: <strong>Прохладов Вадим</strong>
     			</p>
-    			<div class="fotter__logo">
-    				<a class="about__logo">
-    					<img src="#" alt="Логотип сайта">
-    				</a>
-    			</div>
-    			<div class="about__social-networks">
-    				<h4 class="header-sprite">Наши социальные сети</h4>
+            </div>
+    		<div class="fotter__logo">
+    			<a class="about__logo">
+    				<img src="./img/logo_header.png" alt="Логотип сайта">
+    			</a>
+    		</div>
+    		<div class="about__social-networks">
+    			<h4 class="header-sprite">Наши социальные сети</h4>
     				<!--<button type="button">-->    					   				
-    				<ul class="social-list">
+    			<ul class="social-list">
     					<li class="social-list__items">
     						<a href="#" class="social-list__link">
     						<img src="./" alt="Написать нам в ВК">
@@ -245,12 +256,12 @@
     						<img src="./" alt="Написать нам на e-mail">
     						</a>
     					</li>
-    				</ul>
+    			</ul>
     				<!--</button>-->
     			</div>
-    		</div>
+    		
     	</footer>
 
-	</div>
+	</header>
 </body>
 </html>

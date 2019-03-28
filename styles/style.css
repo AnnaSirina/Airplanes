@@ -1,38 +1,84 @@
-.wrapper {
+body {
     background-color: #fff;
-    width: 1104 px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav {
+    display: inline;
+    width: 35%;
+    max-width: 300px;
+    margin: 10px;
+    float: left;
+    margin-top: 30px;
+}
+
+.nav__item {
+    display: inline;
+    max-width: 300px;
+}
+
+.article {
+    width: 70%;
+    float: right;
+}
+
+.plane-banner {
+    
+    width: 1040px;
+    height: 300px;
+    padding-right: 0;
+    margin-top: 10px;
+    background-position: cover; 
+    background-repeat: repeat;
+
+}
+
+h1 {
+   visibility: hidden;
+}
+
+ .tariff__list {
+    
+}
+
+.tariff__list h2 {
 }
 
 
+/*
+.logo-picture {
+    float:; 
+    width: 120px;
+    height: 36px;
+    
+}
 
+/*
 h1 {
     color: white;
 }
 
-
-.logo-picture {
-    width: 120px;
-    height: 36px;
-    background-color: #ffffff;
+.maincontent {
+    width: 80%;
+    height: 1500px;
 }
 
-.main-header {
-    text-align: left;
-    /*width: 1100px;*/
-    height: 77px;
-    background-color: #4b73b5;
-    margin-left: 0%;
-    margin-right: 0%;
-    position: static;
+.article {
+    float: left;
+    width: 80%;
+}
+.sidebar {
+    float: left;
+    width: 20%;
+
 }
 
-
-.plain-banner {
-    width: 1007px;
-    height: 299px;
-    background-position: center;
+.plane-banner {
+    width: 1100px;
+    margin: 10px 400px 10px 100px;
+    float: right;
 }
 
 .header {
@@ -47,11 +93,5 @@ h1 {
     margin-right: 721 px;
 }
 
-.footer {
-    width: 1100px;
-    height: 77px;
-    background-color: #4b73b5;
-    margin-left: 10%;
-    margin-right: 10%;
-    position: static;
-}
+
+*/
