@@ -5,7 +5,7 @@ header {
     font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.contacts {
+.contacts, .schedule {
 font-size: 15px;
  padding-top: 10px;
  text-align: right;
@@ -16,6 +16,13 @@ font-size: 15px;
 .contacts a {
     color: #fff;
     font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.schedule a {
+    color: #fff;
+    font-size: 14px;
 }
 
 
@@ -28,8 +35,8 @@ font-size: 15px;
 }
 
 .schedule a {
-    display:inline-block; 
-    position: relative;}
+    display:block; 
+    text-align: right;}
 
 .graf p {
     display:none; 
@@ -39,6 +46,10 @@ font-size: 15px;
 
 .schedule a:hover {display:;}
 
+
+.section-header { 
+    font-size: 48px;
+}
 
 /*
 .main-header  {
