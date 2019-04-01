@@ -1,0 +1,17 @@
+.about {
+	display: inline-block;
+	width: 236px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+	margin-left: 19px;
+	margin-top: 14px;
+}
+
+.about a {
+	font-weight: bold;
+	color: #fff;
+}
+
+.about a:last-child {text-decoration: none;}

@@ -1,0 +1,40 @@
+
+.pagination {
+    text-align: center;
+}
+
+.pagination__pages-number {display: inline;}
+
+.pagination__display, .pagination__controls {display: inline-block;}
+
+.pagination__display {
+    color: #656464;
+    font-size: 14px;
+      
+}
+
+.pagination__controls {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.pagination__pages-number {
+    list-style-type: none;
+    color: #221f1f;
+}
+
+.pagination a.active {
+    background-color:#4b73b5;
+     
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #4b73b5;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+ul.pagination li a {
+    margin: 0 10px; 
+}

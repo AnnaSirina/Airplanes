@@ -1,0 +1,87 @@
+
+.tariff { 
+    margin: 0 auto;
+}
+
+
+.tariff__list{  
+    margin-left: 199px;
+    margin-top: 27px;
+    display: inline-block;
+    width: 660px;
+    vertical-align: top;
+    
+}
+
+  
+.tariff__avatar { 
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    background-color: #4b73b5;
+   /*margin-left: 92px;
+    margin-top: 70px;*/
+    background-image: url('../../img/star.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    text-align: center; 
+}
+
+.tariff__items:first-child .tariff__avatar {
+    background-image: url('../../img/flower.png');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.tariff__items:last-child .tariff__avatar {
+    background-image: url('../../img/paint.png');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.tariff__name {
+    width: 73px;
+    height: 10px;
+    color: #4e4e4e;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 89px;
+    margin-top: 35px;
+      
+}
+
+.tariff__items {
+    display: inline-block;
+    text-align: center; 
+}
+
+.tariff__price {
+    color: #212121;
+    font-size: 54px;
+    font-weight: 400;
+    color: #202020;
+    text-align: center;
+    margin-top: 35px;
+    }
+
+
+.tariff__description {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 300;
+    width: 185px;
+    text-align: center;
+}
+
+.tariff__description-list li {
+    list-style: disc;    
+}
+
+.tariff__points {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    color: #221f1f; 
+}
+
