@@ -1,13 +1,10 @@
-header {
+.header {
     background-color: #4b73b5;  
-    margin-bottom: 11px; 
-
 }
 
-.header .container {
-    position: relative;
-    min-height: 77px;
-    
+.container--flexheader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
 

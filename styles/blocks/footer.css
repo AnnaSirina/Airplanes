@@ -1,21 +1,10 @@
-footer {
+.footer {
 	background-color: #4b73b5;  
-	clear: both;
-	margin:0px;
-	padding:0px;
-	
-} 
-
-.footer .container {
-	position: relative;
-	max-width: 100%
 }
 
-.footer-logo {
-	display: inline-block;
-	position: absolute;
-	margin-left: 235px;
-	top: 20px;
+.container--flexfooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
 

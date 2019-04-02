@@ -1,30 +1,36 @@
-
-.tariff { 
-    margin: 0 auto;
-}
-
+.paigcontent {display: flex;}
 
 .tariff__list{  
-    display: inline-block;
-    margin-left: 215px;
-    margin-top: 1px;
-    width: 660px;
-    vertical-align: top;
-    
+    display: flex;
+    justify-content: space-between;  
 }
 
-  
+.tariff__items {  
+    justify-content: space-between;  
+}
+
 .tariff__avatar { 
+    display: flex;
     border-radius: 50%;
     width: 68px;
     height: 68px;
     background-color: #4b73b5;
-    margin-left: 92px;
-    margin-top: 70px;
     background-image: url('../../img/star.png');
     background-repeat:no-repeat;
-    background-position: center; 
+    background-position: center;   
+    
 }
+
+.tariff__name { 
+    align-items: flex-start;
+    justify-content: space-between;  
+}
+
+
+
+
+.tariff__items {display: flex; 
+  }
 
 .tariff__items:first-child .tariff__avatar {
     background-image: url('../../img/flower.png');
@@ -43,25 +49,20 @@
     font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
-    margin-left: 89px;
+   margin-left: 89px;
     margin-top: 35px;
       
 }
 
-.tariff__items {
-    display: inline-block;
-    text-align: center; 
-}
 
 .tariff__price {
     color: #212121;
     font-size: 54px;
     font-weight: 400;
     color: #202020;
-    text-align: center;
     margin-top: 35px;
-    }
+    text-align: center;
+}
 
 
 .tariff__description {
@@ -69,9 +70,6 @@
     font-size: 18px;
     font-weight: 300;
     width: 185px;
-    margin-top: 26px;
-    margin-left: 28px;
-    text-align: center;
 }
 
 .tariff__description-list li {
@@ -81,8 +79,5 @@
 .tariff__points {
     font-size: 18px;
     font-weight: 300;
-    text-align: left;
     color: #221f1f; 
-    margin-left: 30px;
 }
-

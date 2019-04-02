@@ -1,5 +1,4 @@
 .about {
-	display: inline-block;
 	width: 236px;
 	color: #fff;
 	font-size: 14px;
@@ -15,3 +14,4 @@
 }
 
 .about a:last-child {text-decoration: none;}
+

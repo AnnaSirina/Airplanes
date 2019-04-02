@@ -14,14 +14,18 @@
 .news__picture, .news__desc {
     display: inline-block;
 }
-.news__picture img {
+.news__picture {
     border-radius: 50%;
     width: 160px;
     height: 160px;
-    margin-top: 72px;
-    margin-left: -5px;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    background-position: center; 
+   /*margin-top: 72px;
+    margin-left: -5px;*/
 }
 
+.news__picture img {max-width: 160px; max-height: 160px;}
 .news__desc {
     width: 595px;
     padding: 0;
@@ -44,5 +48,5 @@
 }
 
 .news__description {
-        font-weight: 300;
+    font-weight: 300;
 }
