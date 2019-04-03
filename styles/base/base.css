@@ -20,6 +20,19 @@ body {
     width: 1050px;
     margin: 0 auto; 
 }
+
+.container--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container--mainflex {
+    display: flex;
+    align-content: flex-start;
+}
+   
+
 .wrapper {
 	overflow: hidden;
 	min-width: 1050px;
@@ -37,17 +50,7 @@ body {
     font-size: 49px;
     font-weight: bold;
     line-height: 38px;
-    margin-left: 199px;
-}
-
-
-.paigcontent {
-    width: 840px;
-}
-
-.paigcontent, .sidebar {
-    display: inline-block;
-    vertical-align: top;
+   margin-left: 75px;
 }
 
 

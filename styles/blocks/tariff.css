@@ -1,16 +1,19 @@
 
 .tariff { 
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;     
 }
 
 
 .tariff__list{  
-    display: inline-block;
-    margin-left: 215px;
-    margin-top: 1px;
-    width: 660px;
-    vertical-align: top;
-    
+    margin-left: 75px;  
+}
+
+
+.tariff__items {
+    display: inline-flex;
+    flex-direction: column;  
+    align-content: space-between;      
 }
 
   
@@ -20,7 +23,7 @@
     height: 68px;
     background-color: #4b73b5;
     margin-left: 92px;
-    margin-top: 70px;
+    margin-top: 20px;
     background-image: url('../../img/star.png');
     background-repeat:no-repeat;
     background-position: center; 
@@ -49,18 +52,13 @@
       
 }
 
-.tariff__items {
-    display: inline-block;
-    text-align: center; 
-}
-
 .tariff__price {
     color: #212121;
     font-size: 54px;
     font-weight: 400;
     color: #202020;
-    text-align: center;
     margin-top: 35px;
+    text-align: center;
     }
 
 

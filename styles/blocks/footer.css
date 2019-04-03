@@ -2,9 +2,3 @@
 	background-color: #4b73b5;  
 }
 
-.container--flexfooter {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-

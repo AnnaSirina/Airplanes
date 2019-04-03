@@ -1,11 +1,12 @@
 
 .nav__list {
-    width: 100%;
-    margin: auto;
-    padding: 0;
-    list-style: none;
-    margin-top: 49px;
-    
+   margin-top: 49px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .nav__icon {
@@ -16,9 +17,6 @@
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
-
-.nav__icon, .nav__title {display: inline; }
-
 
 .nav__link {text-decoration: none;}
 
@@ -42,3 +40,4 @@
 .nav a:hover {color: #4f4c4c;
     filter: grayscale(100%);}
 
+.nav__title {margin-left: 5px;}
