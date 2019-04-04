@@ -41,8 +41,10 @@
 .infoblock__title {
     font-weight: 700;
     font-size: 18px;
+    margin-bottom: -5px;
 }
 
 .infoblock__description {
     font-weight: 300;
+    margin-top: -5px;
 }

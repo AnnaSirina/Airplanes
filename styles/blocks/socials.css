@@ -2,11 +2,16 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color: #fff;
+	background-color: #d2def3;
 	background-image: url('../../img/vk.png');
 	background-repeat:no-repeat;
     background-position: center;
     
+}
+
+.socials__items:hover {
+	background-color: #fff;
+
 }
 
 .socials__items:nth-child(2) {

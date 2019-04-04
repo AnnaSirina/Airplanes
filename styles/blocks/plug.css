@@ -1,0 +1,25 @@
+.plug {
+	display: flex;
+	align-items: center;
+	background-color: #4bb56b;
+	color: #fff;
+	font-size: 14px;
+}
+
+.plug p {line-height: 1.5;}
+
+.сontainer-plug {width: 600px;}
+
+.plug__request {
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.plug__phone {
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
+}

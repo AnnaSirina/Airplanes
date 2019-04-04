@@ -15,10 +15,12 @@
 			
 			 <!--Блок шапки сайта -->
 	    	<header class="header">
-				<div class="container container--flexheader">
-	        	<a class="logo" href="index.html"> <!-- только на главной логотип - не ссылка, т.к. мы уже на главной-->
-	            	<img class="logo__picture" src="./img/logo_header.png" alt="Логотип сайта">
-	        	</a>
+				<div class="container container--flex">
+	        	<div class="logo">
+    			<a class="logo__logo" href="index.html">
+					<img class="logo__img" src="./img/logo_header.png" alt="Логотип сайта">
+    			</a>
+    			</div>
 	        	<div class="contacts">
 	            	<a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a> 
 	            	<div class="contacts__schedule">
@@ -34,13 +36,13 @@
 
 	    	<!--Основное наполнение сайта. Самый крупный блок, включающий все-->
 			<div class="maincontent">
-				<div class="container">
+				<div class="container container--mainflex">
 	    		
 		    	<!-- Боковая навигация -->
 		        <aside class="sidebar">
 					<nav class="nav">
 						<ul class="nav__list">
-							<li class="nav__item nav__item--active"> 
+							<li class="nav__item"> 
 								<a class="nav__link" href="index.html">
 								<div class="nav__icon">
 									<img src="./img/main_icon.png" alt="Картинка меню главная" class="nav__icon-pic">
@@ -61,9 +63,9 @@
 									</a>
 							</li>
 							<li class="nav__item nav__item--active"> 
-									<a class="nav__link">
+									<a class="nav__link" href="crew.html">
 									<div class="nav__icon">
-										<img src="./img/team.png" alt="Картинка меню главная" class="nav__icon-pic">
+										<img src="./img/team_icon_b.png" alt="Картинка меню главная" class="nav__icon-pic">
 									</div>
 									<div class="nav__title">
 										Экипаж
@@ -76,11 +78,11 @@
 
 
 		        <!-- Информационная часть сайта - секция-->
+
+		        <!-- Информационная часть сайта - секция-->
 		        <main class="paigcontent">
 	                
-	                
-
-	            <!--Блок тарифов-->
+	            	<!--Блок тарифов-->
 	                <section class="tariff">
 	                   <h1 class="section-header">Тарифы</h1>
 	                    <ul class="tariff__list">
@@ -99,71 +101,32 @@
 							<li class="tariff__items">
 									<div class="tariff__avatar">
 									</div>
-									<h3 class="tariff__name">Стандарт</h3>
-									<div class="tariff__description">Создан для вашего комфортного отдыха</div>
+									<h3 class="tariff__name">Премиум</h3>
+									<div class="tariff__description">Для любителей хороших впечатлений</div>
 										<ul type="disc" class="tariff__description-list">
 											<li class="tariff__points">Питание включено</li>
 											<li class="tariff__points">Багаж (5 кг)</li>
 											<li class="tariff__points">Детское кресло</li>
 										</ul>  
-									<div class="tariff__price">$19</div>   
+									<div class="tariff__price">$39</div>   
 							</li> 
 							<li class="tariff__items">
 									<div class="tariff__avatar">
 					
 									</div>
-									<h3 class="tariff__name">Стандарт</h3>
-									<div class="tariff__description">Создан для вашего комфортного отдыха</div>
+									<h3 class="tariff__name">Лакшери</h3>
+									<div class="tariff__description">Все самое лучшее и незабываемое</div>
 										<ul type="disc" class="tariff__description-list">
 											<li class="tariff__points">Питание включено</li>
 											<li class="tariff__points">Багаж (5 кг)</li>
 											<li class="tariff__points">Детское кресло</li>
 										</ul>  
-									<div class="tariff__price">$19</div>   
+									<div class="tariff__price">$99</div>   
 							</li> 
 	                    </ul>                     
 	                </section>
 	            
-	            	<!-- Блок нумерации страниц/паггинайции-->
-	            	<div class="pagination">
-	            		<div class="pagination__display">           			
-	            			Страница 1 из 7
-	            		</div>
-	            		<div class="pagination__controls">
-	            			<!--<div class="pagination__buttons">
-	            				<a class="pagination__prev"><</a> -->
-	            				<ul class="pagination__pages">
-									<li class="pagination__pages-number">
-	            						<a class="pagination__link"><</a>
-	            					</li>
-									<li class="pagination__pages-number">
-	            						<a class="pagination__link">1</a>
-	            					</li>
-	            					<li class="pagination__pages-number">
-	            						<a href="#" class="pagination__link">2</a>
-	            					</li>
-	            					<li class="pagination__pages-number">
-	            						<a href="#" class="pagination__link">3</a>
-	            					</li>
-	            					<li class="pagination__pages-number">
-	            						<a href="#" class="pagination__link">4</a>
-	            					</li>
-	            					<li class="pagination__pages-number">
-	            						<a href="#" class="pagination__link">5</a>
-	            					</li>
-	            					<li class="pagination__pages-number">
-	            						<a href="#" class="pagination__link">6</a>
-	            					</li>
-	            					<li class="pagination__pages-number">
-	            						<a href="#" class="pagination__link">7</a>
-									</li> 
-									<li class="pagination__pages-number">
-	            						<a href="#" class="pagination__link">></a>
-	            					</li>       					
-	            				</ul>
-	            				<!--<a href="#" class="pagination__next">></a>
-	            			</div>-->
-	            		</div>
+	            		            	
 
 					</div>
 				</main>
@@ -173,18 +136,20 @@
 		
 
 
+
+
     	<!--Блок футера сайта-->
     	<footer class="footer">
-			<div class="container container--flexfooter">
+			<div class="container container--flex">
     		<div class="about">
     			<p class="about__copyright">
     				Сделано с любовью и старанием на курсе "HTML + CSS" в 
     				<a href="https://loftschool.com/">Loftschool</a>. Автор работы: <a href="https://github.com/AnnaSirina">Сирина Анна</a> 
     			</p>
             </div>
-    		<div class="footer-logo">
-    			<a class="footer-logo__logo" href="index.html">
-					<img class="footer-logo__picture" src="./img/logo_header.png" alt="Логотип сайта">
+    		<div class="logo">
+    			<a class="logo__logo" href="index.html">
+					<img class="logo__img" src="./img/logo_header.png" alt="Логотип сайта">
     			</a>
     		</div>
     		<div class="socials">
