@@ -1,0 +1,20 @@
+.breadcrumbs {
+    display: flex;
+    margin-left: 75px;
+    margin-top: 60px;
+    
+    
+}
+
+.breadcrumbs__list {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.breadcrumbs__item {display: flex;}
+
+.breadcrumbs__link--current:after {
+    content: "/";
+
+}

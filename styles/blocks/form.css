@@ -39,20 +39,22 @@
 }
 
 .form__img {
-	background-image: url(../../img/main_icon.png);
+	background-image: url(../../img/main_white.png);
 	background-position: right;
 	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
 }
 
 
 .form__button:hover {
 	background-color: #fff;
 	color: #4b73b5;
+	font-weight: bold;
 	cursor: pointer;
-	background-image: url(../../img/main_icon_b.png);
+	background-image: url(../../img/main_blue.png);
 	background-position: right;
 	background-repeat: no-repeat;
-	overflow: visible;
 }
 
 .form__confirm {
