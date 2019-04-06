@@ -3,7 +3,7 @@
 	align-items: center;
 	background-color: #4bb56b;
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .plug p {line-height: 1.5;}
@@ -12,14 +12,14 @@
 
 .plug__request {
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: underline;
 	cursor: pointer;
 }
 
 .plug__phone {
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 	cursor: pointer;
 	text-decoration: none;
 }

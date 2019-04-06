@@ -1,7 +1,7 @@
 .breadcrumbs {
     display: flex;
     margin-left: 75px;
-    margin-top: 60px;
+    margin-top: 37px;
     
     
 }
@@ -10,11 +10,20 @@
     display: flex;
     justify-content: flex-start;
     align-content: space-between;
+    font-style: italic;
 }
 
 .breadcrumbs__item {display: flex;}
 
-.breadcrumbs__link--current:after {
+.breadcrumbs__link a {
+    color: #4f4c4c;
+    font-size: 12px;}
+
+.breadcrumbs__link--last:before {
     content: "/";
+    text-decoration: none;
+    padding: 1px;
 
 }
+
+

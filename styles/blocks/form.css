@@ -12,7 +12,8 @@
 
 .section-header--form {
 	align-items: flex-start;
-	margin-left: 0px;}
+	margin-left: 0px;
+	margin-bottom: 20px;}
 
 .form__param {
 	display: flex;
@@ -23,6 +24,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	justify-content: space-between;
 }
 
 .form__opinion {width: 600px;}
@@ -35,8 +37,8 @@
 	width: 130px;
 	background-color: #4b73b5;
 	color: #fff;
-	
 }
+
 
 .form__img {
 	background-image: url(../../img/main_white.png);
@@ -61,3 +63,27 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+
+.form__input {
+	width: 290px;
+}
+
+.form__lebel  {
+	margin: 10px 0;
+}
+
+.form__comment {margin-bottom: 10px;}
+
+.form__radio {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.form__radiobutton {
+	display: inline-flex;
+	align-items: flex-start;
+}
+
+.form__yes {margin-right: 20px;}
