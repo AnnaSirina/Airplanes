@@ -1,25 +1,31 @@
 .plug {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	background-color: #4bb56b;
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.plug p {line-height: 1.5;}
+.plug p {line-height: 1.7;}
 
-.сontainer-plug {width: 600px;}
+.сontainer-plug {
+	margin: 0 auto;
+	width: 660px;
+}
+.plug__text {width: 100%;}
 
 .plug__request {
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
 	text-decoration: underline;
 	cursor: pointer;
 }
 
 .plug__phone {
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 	cursor: pointer;
 	text-decoration: none;
 }
