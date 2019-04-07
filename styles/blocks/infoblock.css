@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-left: 73px;
-    margin-top: 7px;  
+    margin-top: 7px; 
+    margin-top: 0; 
 }
 
 .infoblock__item {
