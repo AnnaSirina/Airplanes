@@ -24,6 +24,8 @@
     width: 160px;
     height: 160px;
     overflow: hidden;
+    background-image: url('../../img/noimg.png');
+    background-repeat: no-repeat;   
 }
 
 .infoblock__picture img {

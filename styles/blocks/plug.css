@@ -2,6 +2,8 @@
 	display: flex;
 	align-items: flex-start;
 	background-color: #4bb56b;
+	background-image: url('../../img/point.png');
+	background-repeat: round;
 	color: #fff;
 	font-size: 18px;
 	padding-top: 20px;
@@ -20,6 +22,7 @@
 	font-weight: bold;
 	font-size: 18px;
 	text-decoration: underline;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -28,4 +31,5 @@
 	font-size: 16px;
 	cursor: pointer;
 	text-decoration: none;
+	color: #fff;
 }
