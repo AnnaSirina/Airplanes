@@ -1,0 +1,37 @@
+.backpic { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    height: 650px;   
+    background: url('../../img/backgr.png') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    
+}
+
+.intrologo {
+    padding-top: 50%;
+    background-image: url('../../img/logo_intro.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    max-height: 300px;
+}
+
+.form__btn--enter {
+    margin-top: -150px;
+    margin-right: -30px;
+    width: 212px;
+    height: 47px;
+}
+
+@keyframes myanimatin {
+0% { transform: translateX(0) rotate(0)}
+}
+
+100% {  transform: translateX(400px) rotate(360deg)}
+
+}

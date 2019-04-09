@@ -15,42 +15,58 @@
 .tariff__items {
     display: inline-flex;
     flex-direction: column;  
-    align-content: space-between;    
+    align-content: space-between;
+    align-items: center;  
     padding: 20px;  
 }
 
-  
+.tariff__items:hover {
+    border: 0.5px solid rgb(82, 77, 77, 0.3);   
+}
+
 .tariff__avatar { 
     border-radius: 50%;
     width: 68px;
     height: 68px;
-    background-color: #4b73b5;
-    margin-left: 92px;
-    margin-top: 20px;
-    background-image: url('../../img/star.png');
-    background-repeat:no-repeat;
-    background-position: center; 
+    background-color: #4b73b5;    
+    position: relative; 
 }
 
-.tariff__items:first-child .tariff__avatar {
-    background-image: url('../../img/flower.png');
-    background-repeat:no-repeat;
-    background-position: center;
+
+.tariff__avatar:after {
+    content: "";
+    display: block; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url('../../img/icons/icons_sprite.png');
+    width: 32px;
+    height: 32px;
+    background-position: -247px -5px;
 }
 
-.tariff__items:last-child .tariff__avatar {
-    background-image: url('../../img/paint.png');
-    background-repeat:no-repeat;
-    background-position: center;
+
+.tariff__items:first-child .tariff__avatar:after {
+    width: 27px;
+    height: 31px;
+    background-position: -21px -5px;
 }
+
+
+.tariff__items:last-child .tariff__avatar:after {
+    width: 28px;
+    height: 29px;
+    background-position: -105px -5px;
+}
+
+
 .tariff__name {
     width: 73px;
     color: #4e4e4e;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
-    margin-left: 89px;
     margin-top: 30px;
     letter-spacing: 2.4;
       
@@ -62,8 +78,7 @@
     font-weight: 400;
     color: #202020;
     margin-top: 15px;
-    text-align: center;
-    }
+}
 
 
 .tariff__description {
@@ -73,7 +88,7 @@
     width: 185px;
     margin-top: 8px;
     margin-left: 30px;
-    text-align: center;
+  text-align: center;
 }
 
 .tariff__description-list li {
