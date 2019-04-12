@@ -1,7 +1,7 @@
 .news { 
     display: flex;
     flex-direction: column;
-    margin-left: 73px;
+    margin-left: 25px;
     margin-top: 7px; 
     margin-top: 0; 
 }
@@ -18,7 +18,7 @@
     align-items: center;  
     list-style-type: none;
     margin-top: 40px; 
-    width: 300px;
+    width: 270px;
 }
 
 
