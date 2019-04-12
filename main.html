@@ -9,23 +9,249 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-	
+	<!--Оборачиваем все содержимое сайта в класс wrapper--> 
 	<div class="wrapper">
-		
-			<div class="container container--intro">
-	    	
-				<div class="backpic">
-				
-		
-				
-				<div class="intrologo"> </div>
-				<div class="form__btns form__btn--enter">
-						<button type="submit" class="form__btn form__submit">Отправить</button>
-				</div> 
-			</div>
+		<div class="wrapper__content">
+			
+			 <!--Блок шапки сайта -->
+	    	<header class="header">
+				<div class="container container--flex">
+	        	<div class="logo">
+    			<a class="logo__logo">
+					<img class="logo__img" src="./img/logo_header.png" alt="Логотип сайта">
+    			</a>
+    			</div>
+	        	<div class="contacts">
+	            	<a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a> 
+	            	<div class="contacts__schedule">
+							<button type="button" class="contacts__link">График работы</button>
+							
+							<div class="contacts__graf">
+							<p class="contacts__days">пн-вс: 09:00-20.00 </p>
+							<p class="contacts__lunch-time">обед: 14:00-14:30</p>
+							</div>
+					</div> 
+	        	</div>			
+				</div>
+	    	</header>
 
+	    	<!--Основное наполнение сайта. Самый крупный блок, включающий все-->
+			<div class="maincontent">
+				<div class="container container--mainflex">
+	    		
+		    	<!-- Боковая навигация -->
+		        <aside class="sidebar">
+					 <section class="tariff">
+	                   <ul class="tariff__list">
+
+							<li class="tariff__items">
+								<h2 class="section-header section-header--aside">Топ-Тариф</h2>
+								<!--<div class="tariff__avatar">
+								</div>-->
+								<h3 class="tariff__name">Стандарт</h3>
+								<div class="tariff__description">Создан для вашего комфортного отдыха</div>
+									<ul type="disc" class="tariff__description-list">
+										<li class="tariff__points">Питание включено</li>
+										<li class="tariff__points">Багаж (5 кг)</li>
+										<li class="tariff__points">Детское кресло</li>
+									</ul>  
+								<div class="tariff__price">$19</div>   
+							</li> 
+							
+	                    </ul>                     
+	                </section>
+
+	                <div class="socials">
+    			<h4 class="socials__title">Наши социальные сети</h4>	   					   				
+    			<ul class="socials__list">
+    					<li class="socials__items">
+    						<a href="#" class="socials__link">
+    						
+    						</a>
+    					</li>
+    					<li class="socials__items">
+    						<a href="#" class="socials__link">
+    						
+    						</a>
+    					</li>
+    					<li class="socials__items">
+    						<a href="#" class="socials__link">
+    						
+    						</a>
+    					</li>
+    					<li class="socials__items">
+    						<a href="#" class="socials__link">
+    						
+    						</a>
+    					</li>
+    					<li class="socials__items">
+    						<a href="#" class="socials__link">
+    						
+    						</a>
+    					</li>
+    			</ul>
+    			
+    		</div>
+
+		        </aside>  
+
+
+		        <!-- Информационная часть сайта - секция-->
+		        <main class="paigcontent">
+
+
+		        	<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item nav__item--active"> 
+								<a class="nav__link nav__link--main">
+								<div class="nav__icon">
+									
+								</div>
+								<span class="nav__title">
+									Главная
+								</span>
+								</a>
+							</li>
+							<li class="nav__item"> 
+									<a class="nav__link nav__link--comment" href="comment.html">
+									<div class="nav__icon">
+										
+									</div>
+									<span class="nav__title">
+										Отзывы
+									</span>
+									</a>
+							</li>
+							<li class="nav__item"> 
+									<a class="nav__link nav__link--crew" href="crew.html">
+									<div class="nav__icon">
+										
+									</div>
+									<span class="nav__title">
+										Экипаж
+									</span>
+									</a>
+							</li>
+						</ul>
+					</nav> 
+	                
+	                <!--Заглавное изображение-->
+	            	<div class="plane-banner">
+	                	<img class="plane-banner__image"src="./img/banner.png" alt="Самолет компании">
+	            	</div>
+
+
+	            	
+	            		            	
+
+
+	            	<!--Блок последние новости-->
+	            	<section class="news">
+	            		<h1 class="section-header">Последние новости</h1>
+	            		<ul class="news__list">
+	            			<li class="news__item">
+	            				<div class="news__picture">
+	            					<img src="./img/plane.png" class="news__pic" alt="Летящий самолет">
+	            				</div>
+	            				<div class="news__desc">
+	            					<div class="news__data">12.10.2016</div>
+	            					<h3 class="news__title">Ночные перелёты дешевле!</h3>
+	            					<p class="news__descrition">
+										Летящий в ночном небе самолет — зрелище загадочное и романтическое. Крылатая машина величественно плывет в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным делам. </p>
+	            				</div>
+							</li>
+							<li class="news__item">
+									<div class="news__picture">
+										<img src="./img/mount.png" class="news__pic" alt="Горы">
+									</div>
+									<div class="news__desc">
+										<div class="news__data">01.02.2016</div>
+										<h3 class="news__title">Путешествие в Грузию стало доступнее</h3>
+										<p class="news__descrition"> 										Экскурсии по Грузии в 2017 году от русских гидов: самые интересные маршруты в Грузии от профессиональных гидов. Обзорные, пешеходные, автомобильные, тематические экскурсии по интересным городам и курортам Грузии. Не пропустите такую возможность!</p>
+									</div>
+							</li>
+							<li class="news__item">
+									<div class="news__picture">
+										<img src="./img/child.png" class="news__pic" alt="Бегущий ребенок">
+									</div>
+									<div class="news__desc">
+										<div class="news__data">22.12.2015</div>
+										<h3 class="news__title">Детские авиабилеты доступны для бизнес-класса</h3>
+										<p class="news__descrition">
+											Путешествие на самолете с детьми - небольшое испытание для родителей. 
+											Но это не экстремальное приключение, а обычный цивилизованный поход. 
+											Тем более, различные авиакомпании стараются помочь скидками на детские авиабилеты, специальным питанием и другими услугами на борту лайнера.</p>
+									</div>
+							</li>
+	            							
+	            		</ul>
+	            	</section>
+	            
+	            	<!-- Блок нумерации страниц/паггинайции-->
+	            	<div class="pagination">
+	            		<div class="pagination__display">           			
+	            			Страница 1 из 7
+	            		</div>
+	            		<div class="pagination__controls">
+	            			
+	            				<ul class="pagination__pages">
+									<li class="pagination__pages-number pagination__pages-number--notactive">
+	            						<a class="pagination__link"><</a>
+	            					</li>
+									<li class="pagination__pages-number pagination__pages-number--active">
+	            						<a class="pagination__link">1</a>
+	            					</li>
+	            					<li class="pagination__pages-number">
+	            						<a href="#" class="pagination__link">2</a>
+	            					</li>
+	            					<li class="pagination__pages-number">
+	            						<a href="#" class="pagination__link">3</a>
+	            					</li>
+	            					<li class="pagination__pages-number">
+	            						<a href="#" class="pagination__link">4</a>
+	            					</li>
+	            					<li class="pagination__pages-number">
+	            						<a href="#" class="pagination__link">5</a>
+	            					</li>
+	            					<li class="pagination__pages-number">
+	            						<a href="#" class="pagination__link">6</a>
+	            					</li>
+	            					<li class="pagination__pages-number">
+	            						<a href="#" class="pagination__link">7</a>
+									</li> 
+									<li class="pagination__pages-number">
+	            						<a href="#" class="pagination__link">></a>
+	            					</li>       					
+	            				</ul>
+	            			
+	            		</div>
+
+					</div>
+				</main>
+				</div>
 			</div>
-    </div>
-    	
+	     </div>   
+		
+
+
+    	<!--Блок футера сайта-->
+    	<footer class="footer">
+			<div class="container container--flex">
+    		<div class="about">
+    			<p class="about__copyright">
+    				Сделано с любовью и старанием на курсе "HTML + CSS" в 
+    				<a href="https://loftschool.com/">Loftschool</a>. Автор работы: <a href="https://github.com/AnnaSirina">Сирина Анна</a> 
+    			</p>
+            </div>
+    		<div class="logo">
+    			<a class="logo__logo">
+					<img class="logo__img" src="./img/logo_header.png" alt="Логотип сайта">
+    			</a>
+    		</div>
+    		
+    		</div>
+    	</footer>
+
+	</header>
 </body>
 </html>

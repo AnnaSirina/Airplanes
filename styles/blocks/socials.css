@@ -1,8 +1,14 @@
+.socials {
+	width: 170px;
+	margin: 0 auto;
+
+}
+
 .socials__items {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color: #d2def3;
+	background-color: #fff;
 	position: relative;	  
 }
 
@@ -22,7 +28,7 @@
 
 
 .socials__items:hover {
-	background-color: #fff;
+	background-color: #d2def3;
 
 }
 
@@ -51,16 +57,20 @@
 }
 
 .socials__title {
-	color: #ffffff;
+	color: #4e4e4e;
 	font-size: 14px;
 	font-weight: 700;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 .socials__list {
+
 	display: flex;
-	margin-bottom: 20px;
+	margin: 0 auto;
 	justify-content: space-between;
+	align-items: center;
+
 	
 }
 

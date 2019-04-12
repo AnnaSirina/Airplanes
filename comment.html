@@ -17,7 +17,7 @@
 	    	<header class="header">
 				<div class="container container--flex">
 	        	<div class="logo">
-    			<a class="logo__logo" href="index.html">
+    			<a class="logo__logo" href="main.html">
 					<img class="logo__img" src="./img/logo_header.png" alt="Логотип сайта">
     			</a>
     			</div>
@@ -40,10 +40,53 @@
 	    		
 		    	<!-- Боковая навигация -->
 		        <aside class="sidebar">
+					<div class="plug">
+						<p class="plug__text">
+							Вопросы по пронированию билетов в нашей компании принимаются.
+							Для этого можно оставить <a href="#" class="plug__request">заявку на сайте </a> или же позвонить по номеру круглосуточной поддержки <a class="plug__phone" href="tel: +788000039210"> 8 (800) 00-392-10. </a>
+						</p>
+					</div>
+
+					<div class="socials">
+		    			<h4 class="socials__title">Наши социальные сети</h4>	   					   				
+		    			<ul class="socials__list">
+		    					<li class="socials__items">
+		    						<a href="#" class="socials__link">
+		    						
+		    						</a>
+		    					</li>
+		    					<li class="socials__items">
+		    						<a href="#" class="socials__link">
+		    						
+		    						</a>
+		    					</li>
+		    					<li class="socials__items">
+		    						<a href="#" class="socials__link">
+		    						
+		    						</a>
+		    					</li>
+		    					<li class="socials__items">
+		    						<a href="#" class="socials__link">
+		    						
+		    						</a>
+		    					</li>
+		    					<li class="socials__items">
+		    						<a href="#" class="socials__link">
+		    						
+		    						</a>
+		    					</li>
+		    			</ul>	
+		    		</div>
+		        </aside>  
+
+
+		        <!-- Информационная часть сайта - секция-->
+		        <main class="paigcontent">
+					
 					<nav class="nav">
 						<ul class="nav__list">
 							<li class="nav__item"> 
-								<a class="nav__link nav__link--main" href="index.html">
+								<a class="nav__link nav__link--main" href="main.html">
 								<div class="nav__icon">
 									<!--<img src="./img/main_icon_blue.png" alt="Картинка меню главная" class="nav__icon-pic">-->
 								</div>
@@ -74,22 +117,6 @@
 							</li>
 						</ul>
 					</nav>
-		        </aside>  
-
-
-		        <!-- Информационная часть сайта - секция-->
-		        <main class="paigcontent">
-					
-					<div class="breadcrumbs">
-						<ul class="breadcrumbs__list">
-							<li class="breadcrumbs__item">
-								<a href="index.html" class="breadcrumbs__link">Главная</a>
-							</li>
-							<li class="breadcrumbs__item">
-								<a class="breadcrumbs__link breadcrumbs__link--last">Отзывы</a>
-							</li>
-						</ul>
-					</div>	
 	                
 					<!--Блок отзывы-->
 					
@@ -149,8 +176,7 @@
 	            			Страница 1 из 7
 	            		</div>
 	            		<div class="pagination__controls">
-	            			<!--<div class="pagination__buttons">
-	            				<a class="pagination__prev"><</a> -->
+	            			
 	            				<ul class="pagination__pages">
 									<li class="pagination__pages-number pagination__pages-number--notactive">
 	            						<a class="pagination__link"><</a>
@@ -180,25 +206,12 @@
 	            						<a href="#" class="pagination__link">></a>
 	            					</li>       					
 	            				</ul>
-	            				<!--<a href="#" class="pagination__next">></a>
-	            			</div>-->
+	            				
 	            		</div>
 
 					</div>
-				</main>
-				</div>
 
-				<div class="plug">
-					<div class="container сontainer-plug">
-					<p class="plug__text">
-						Вопросы по пронированию билетов в нашей компании принимаются.
-						Для этого можно оставить <a href="#" class="plug__request">заявку на сайте </a> или же позвонить по номеру круглосуточной поддержки <a class="plug__phone" href="tel: +788000039210"> 8 (800) 00-392-10. </a>
-					</p>
-					</div>
-				</div>
-
-
-				<div class="form">
+					<div class="form">
 						
 					<form action="" class="form">
 					  <div class="container container--form">
@@ -220,11 +233,11 @@
 									  <div class="form__photo">
 									    <div class="form__photo-text">Отображать фото в отзыве?</div>
 									  <label class="form__radio-lbl" tabindex="0">
-									      <input class="form__radio" value="yes" type="radio" name="yes" checked>
+									      <input class="form__radio" value="yes" type="radio" name="check" checked>
 									      <span class="form__radio-custom"> </span>
 									      <span class="form__radio-text" >Да</span>
 									    </label>  
-									  <label class="form__radio-lbl" tabindex="0"><input  class="form__radio" value="no" type="radio" name="no" tabindex="0">
+									  <label class="form__radio-lbl" tabindex="0"><input  class="form__radio" value="no" type="radio" name="check" tabindex="0">
 									    <span class="form__radio-custom"></span>
 									    <span class="form__radio-text">Нет</span>
 									    </label>  
@@ -239,6 +252,13 @@
 					    </div> 
 					</form>	
 				</div>
+				</main>
+				</div>
+
+				
+
+
+				
 
 
 
@@ -254,41 +274,11 @@
     			</p>
             </div>
     		<div class="logo">
-    			<a class="logo__logo" href="index.html">
+    			<a class="logo__logo" href="main.html">
 					<img class="logo__img" src="./img/logo_header.png" alt="Логотип сайта">
     			</a>
     		</div>
-    		<div class="socials">
-    			<h4 class="socials__title">Наши социальные сети</h4>	   					   				
-    			<ul class="socials__list">
-    					<li class="socials__items">
-    						<a href="#" class="socials__link">
-    						
-    						</a>
-    					</li>
-    					<li class="socials__items">
-    						<a href="#" class="socials__link">
-    						
-    						</a>
-    					</li>
-    					<li class="socials__items">
-    						<a href="#" class="socials__link">
-    						
-    						</a>
-    					</li>
-    					<li class="socials__items">
-    						<a href="#" class="socials__link">
-    						
-    						</a>
-    					</li>
-    					<li class="socials__items">
-    						<a href="#" class="socials__link">
-    						
-    						</a>
-    					</li>
-    			</ul>
-    			
-    		</div>
+    		
     		</div>
     	</footer>
 
