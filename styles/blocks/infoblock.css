@@ -1,9 +1,6 @@
 .infoblock { 
     display: flex;
     flex-direction: column;
-    margin-left: 73px;
-    margin-top: 7px; 
-    margin-top: 0; 
 }
 
 
@@ -21,7 +18,8 @@
 
 
 .infoblock__item {
-    margin-top: 40px; 
+    margin-top: 12px; 
+    margin-bottom: 58px;
 }
 .infoblock__picture {
     border-radius: 50%;
@@ -39,7 +37,7 @@
 
 .infoblock__desc {
     width: 595px;
-    margin-left: 20px;
+    margin-left: 33px;
     text-align: left;
     font-size: 16px;
 }

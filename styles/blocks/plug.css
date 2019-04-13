@@ -1,8 +1,10 @@
 .plug {
 	display: flex;
 	align-items: flex-start;
-	padding-top: 20px;
 	padding-bottom: 20px;
+	max-width: 282px;
+	padding: 0 10px;
+	margin-bottom: 31px;
 }
 
 
@@ -10,10 +12,11 @@
 	background-color: #4b73b5;
 	background-image: url('../../img/pattern.png');
 	background-repeat: repeat;
-	padding: 15px;
+	padding: 28px 0px;
 	text-align: center;
 	color: #fff;
 	font-size: 18px;
+	margin-bottom: 20px;
 }
 .plug p {
 	line-height: 1.7;

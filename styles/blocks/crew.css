@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 70px; 
+    margin-left: 0px; 
     margin-bottom: 30px;
     
 }
@@ -10,14 +10,14 @@
 .crew__list{ 
     display: flex;
     flex-wrap: wrap; 
-    margin-top: 17px;  
+    margin-top: 27px;  
     
 }
 
 .crew__items {
     display: flex;
     flex-direction: column;
-    max-width: 270px;
+    width: 30%;
     justify-content: flex-start;
     align-items: center;
     margin-left: 14px;  

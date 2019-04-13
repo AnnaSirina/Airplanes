@@ -1,7 +1,7 @@
 .partners {
 	text-align: center;
-	margin-top:51px; 
-	padding: 15px 0px;
+	margin-top:8px; 
+	Padding: 15px 60px;
 }
 
 .partners:hover {
@@ -9,7 +9,7 @@
 }
 
 .partners__list {
-	margin-top: 28px;
+	margin-top: 22px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -19,8 +19,8 @@
 	padding-bottom: 50px;	
 }
 
-.section-header.section-header--crew {
-	font-size: 16px;
+.section-header.section-header--partners {
+	font-size: 18px;
     font-weight: bold; 
     text-transform: uppercase;
     margin-top: 10px;
