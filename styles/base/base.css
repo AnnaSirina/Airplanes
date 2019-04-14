@@ -54,7 +54,9 @@ body {
     margin-top: 18px;
 }
 
-
+aside {
+   max-width: 315px;
+}
 .header-aside { 
     font-size: 18px;
     font-weight: bold; 
