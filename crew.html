@@ -7,6 +7,7 @@
 	<title>Экипаж</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./styles/main.css">
+	<link rel="shortcut icon" href="./img/fav.ico" type="image/x-icon">
 </head>
 <body>
 	<!--Оборачиваем все содержимое сайта в класс wrapper--> 
@@ -42,35 +43,35 @@
 		        <aside class="sidebar">
 					<!--Блок партенры-->
 	            	<section class="partners">
-	            		<h2 class="section-header section-header--partners">Партнёры </h2>
+	            		<h2 class="header-aside">Партнёры </h2>
 	            		<ul class="partners__list">
 	            			<li class="partners__items">
-	            				<a href="#">
+	            				<a class="partners__link" href="#">
 	            				<img src="././img/logo-3.png" class="partners__img" alt="Сибирские Авиалинии">
 	            				</a>
 	            			</li>
 	            			<li class="partners__items">
-	            				<a href="#">
+	            				<a class="partners__link" href="#">
 	            				<img src="././img/logo-6.png" class="partners__img" alt="Урал">
 	            				</a>
 	            			</li>
 	            			<li class="partners__items">
-	            				<a href="#">
+	            				<a class="partners__link" href="#">
 	            				<img src="././img/logo-1.png" class="partners__img" alt="BMP Company">
 	            				</a>
 	            			</li>
 	            			<li class="partners__items">
-	            				<a href="#">
+	            				<a class="partners__link" href="#">
 	            				<img src="././img/logo-4.png" class="partners__img" alt="One Air">
 	            				</a>
 	            			</li>
 	            			<li class="partners__items">
-	            				<a href="#">
+	            				<a class="partners__link" href="#">
 	            				<img src="././img/logo-2.png" class="partners__img" alt="Tetra Install">
 	            				</a>
 	            			</li>
 	            			<li class="partners__items">
-	            				<a href="#">
+	            				<a class="partners__link" href="#">
 	            				<img src="././img/logo-5.png" class="partners__img" alt="BingAir">
 	            				</a>
 	            			</li>
@@ -126,9 +127,6 @@
 						<ul class="nav__list">
 							<li class="nav__item"> 
 								<a class="nav__link nav__link--main" href="main.html">
-								<div class="nav__icon">
-									<!--<img src="./img/main_icon_blue.png" alt="Картинка меню главная" class="nav__icon-pic">-->
-								</div>
 								<span class="nav__title">
 									Главная
 								</span>
@@ -136,9 +134,6 @@
 							</li>
 							<li class="nav__item"> 
 									<a class="nav__link nav__link--comment" href="comment.html">
-									<div class="nav__icon">
-										<!--<img src="./img/feed.png" alt="Картинка меню главная" class="nav__icon-pic">-->
-									</div>
 									<span class="nav__title">
 										Отзывы
 									</span>
@@ -146,9 +141,6 @@
 							</li>
 							<li class="nav__item nav__item--active"> 
 									<a class="nav__link nav__link--crew">
-									<div class="nav__icon">
-										<!--<img src="./img/team_icon_b.png" alt="Картинка меню главная" class="nav__icon-pic">-->
-									</div>
 									<span class="nav__title">
 										Экипаж
 									</span>
@@ -156,63 +148,65 @@
 							</li>
 						</ul>
 					</nav>
+
+
 	            	<!--Блок экипаж-->
 	                <section class="crew">
 	                   <h1 class="section-header">Экипаж</h1>
 	                    <ul class="crew__list">
 							<li class="crew__items">
 								<div class="crew__avatar">
-									<img src="./img/main_pilot.png" class="crew__pic" alt="Белов А.В.">
+									<img src="./img/main_pilot.jpg" class="crew__pic" alt="Белов А.В.">
 									<div class="crew__icon-effect">Алексей</div>
 								</div>
 								<h3 class="crew__name">Белов Алексей Вадимович</h3>
-								<div class="crew__role">Главный пилот</div>
+								<h4 class="crew__role">Главный пилот</h4>
 								<p class="crew__description">Высокий профессионализм, честь и отвага – все характеристики главного пилота Белова А.В. 
 								На его счету более 700 полетов. Награжден за мужество и отвагу указом Президента. </p>   
 							</li> 
 							<li class="crew__items">
 								<div class="crew__avatar">
-									<img src="./img/suharina.png" class="crew__pic" alt="Сухарина И.Н.">
+									<img src="./img/suharina.jpg" class="crew__pic" alt="Сухарина И.Н.">
 									<div class="crew__icon-effect">Инна</div>
 								</div>
 								<h3 class="crew__name">Сухарина Инна Николаевна</h3>
-								<div class="crew__role">Бортпроводник</div>
+								<h4 class="crew__role">Бортпроводник</h4>
 								<p class="crew__description">Благодаря деятельности этого человека на борту самолета клиенты чувствуют себя, как дома. Инна Николаевна чутко относится ко всем требованиям клиентов, очень любит детей и всячески помогает сделать полет комфортным и приятным. </p>   
 							</li> 
 							<li class="crew__items">
 								<div class="crew__avatar">
-									<img src="./img/lesh.png" class="crew__pic" alt="Лещ Б.А.">
+									<img src="./img/lesh.jpg" class="crew__pic" alt="Лещ Б.А.">
 									<div class="crew__icon-effect">Борис</div>
 								</div>
 								<h3 class="crew__name">Лещ Борис Анатольевич</h3>
-								<div class="crew__role">Авиатехник</div>
+								<h4 class="crew__role">Авиатехник</h4>
 								<p class="crew__description">Человек с золотыми руками, инженер и конструктор от Бога! Борис Анатольевич работает уже более 50 лет и на своем веку видел, как из старых моделей самолетов появились настоящие авиа шедевры.  </p>   
 							</li> 
 							<li class="crew__items">
 								<div class="crew__avatar">
-									<img src="./img/gigardidze.png" class="crew__pic" alt="Дигангидзе Э.Д.">
+									<img src="./img/gigardidze.jpg" class="crew__pic" alt="Дигангидзе Э.Д.">
 									<div class="crew__icon-effect">Элина</div>
 								</div>
 								<h3 class="crew__name">Дигангидзе Элина Даниловна</h3>
-								<div class="crew__role">Диспетчер</div>
+								<h4 class="crew__role">Диспетчер</h4>
 								<p class="crew__description">Ей присущ внимательный подход к расчетам, а отменная память удивляет даже самых опытных членов экипажа. За 22 года работы она стажировала более 100 диспетчеров для работы в крупнейших аэропортах страны. Знает в совершенстве 5 иностранных языков.  </p>   
 							</li> 
 							<li class="crew__items">
 								<div class="crew__avatar">
-									<img src="./img/sled.png" class="crew__pic" alt="Следь Е.Н.">
+									<img src="./img/sled.jpg" class="crew__pic" alt="Следь Е.Н.">
 									<div class="crew__icon-effect">Елена</div>
 								</div>
 								<h3 class="crew__name">Следь Елена Николаевна</h3>
-								<div class="crew__role">Старший бортпроводник</div>
+								<h4 class="crew__role">Старший бортпроводник</h4>
 								<p class="crew__description">Вежливая улыбка, внимательность к деталям и большой опыт работы – это лишь малая часть достоинств Елены Николаевны. Старший бортпроводник задает тон всей поездке, поэтому клиенты, которые летят с ней, заряжаются отличным настроением и гармонией.  </p>   
 							</li> 
 							<li class="crew__items">
 								<div class="crew__avatar">
-									<img src="./img/nesterenko.png" class="crew__pic" alt="Нестеренко Ю.А.">
+									<img src="./img/nesterenko.jpg" class="crew__pic" alt="Нестеренко Ю.А.">
 									<div class="crew__icon-effect">Юрий</div>
 								</div>
 								<h3 class="crew__name">Нестеренко Юрий Афанасьевич</h3>
-								<div class="crew__role">Второй пилот</div>
+								<h4 class="crew__role">Второй пилот</h4>
 								<p class="crew__description">Правая рука главного пилота, опытный и отважный помощник. О своей работе в шутку говори так «Наше дело правое, не мешать левому». Опыт работы составляет 18 лет, внимательно относится ко всем деталям и считает свою работу – делом жизни. </p>   
 							</li> 
 	                    </ul>                     

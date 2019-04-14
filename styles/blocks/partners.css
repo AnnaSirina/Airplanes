@@ -19,30 +19,17 @@
 	padding-bottom: 50px;	
 }
 
-.section-header.section-header--partners {
-	font-size: 18px;
-    font-weight: bold; 
-    text-transform: uppercase;
-    margin-top: 10px;
-     color: #4e4e4e;
-}
-
- .partners__items img {
+.partners__link {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	filter: grayscale(100%);
 	filter: gray; 
-	
+	transition: 0.3s;
 }
 
-
-.partners__items .partners__img--color {
-	filter: none;
-}
-
-.partners__items img:hover {
+.partners__link:hover {
 	-webkit-filter: none;
 	-moz-filter: none;
 	-ms-filter: none;

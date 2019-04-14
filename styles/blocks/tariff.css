@@ -8,20 +8,9 @@
     padding: 23px 0px;
 }
 
-.section-header.section-header--aside { 
-    font-size: 16px;
-    font-weight: bold; 
-    text-transform: uppercase;
-    margin-top: 10px;
-    margin-right: 15px;
-}
-
-.tariff__list{  
-  /* margin-left: -10px;  */
-}
 
 
-.tariff__items {
+.tariff__item {
     display: inline-flex;
     flex-direction: column;  
     align-content: space-between;
@@ -30,7 +19,7 @@
       
 }
 
-.tariff__items:hover {
+.tariff:hover {
     border: 0.5px solid rgb(82, 77, 77, 0.3);   
 }
 
@@ -72,7 +61,7 @@
 
 
 .tariff__name {
-    margin-top: 5px;
+    margin-top: 25px;
     color: #4e4e4e;
     font-size: 12px;
     font-weight: bold;

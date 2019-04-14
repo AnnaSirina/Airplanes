@@ -3,40 +3,19 @@
     -moz-background-size: 100%; 
     -webkit-background-size: 100%; 
     -o-background-size: 100%; 
-    background-size: 100%; 
+    background-size: cover; 
      
 }
 
 .container-intro { 
-    display: flex;
     margin: auto;
-
-}
-
-
-.backpic { 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     vertical-align: top;
-    width: 100%;
     animation: myanimation 2s, bounce 2s;
-     
 }
-
-.intrologo {
-    align-items: center;
-    padding-top: 200px;
-    background: url('../../img/logo_intro.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 200px;
-    padding-bottom: 20px;
-    
-}
-
-
 
 .btn__enter {
   display: flex;
