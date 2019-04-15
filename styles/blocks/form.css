@@ -149,6 +149,7 @@ opacity: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-weight: bold;
   width: 150px;
   height: 70%;
   background-color: #4b73b5;
@@ -197,9 +198,9 @@ opacity: 1;
 .form__btn:hover {
   background-color: #fff;
   color: #4b73b5;
-  font-weight: bold;
+  /*font-weight: bold;*/
   cursor: pointer;
-  transition: 0.5s;
+ 
 }
 
 

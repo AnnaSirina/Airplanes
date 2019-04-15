@@ -4,7 +4,8 @@ html, body {height: 100%;}
 
 body {
     background-color: #fff;
-    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'roboto', HelveticaNeue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
     margin: 0px;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;

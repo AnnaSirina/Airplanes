@@ -13,6 +13,7 @@
 
 .nav__item {
     margin-bottom: 10px;
+    transition: 0.5s;
 }
 
 .nav__item:last-child {

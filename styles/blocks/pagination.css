@@ -15,14 +15,19 @@
     display: inline-flex;
     padding: 0 5px;
     text-align: center;  
+    list-style-type: none;
+    color: #221f1f;
+
 }
 
-.pagination__pages-number a {
+.pagination__link {
     text-decoration: none;
     color: #221f1f;
+    transition: 0.3s;
+
 }
 
-.pagination__pages-number a:hover {
+.pagination__link:hover {
     color: #4b73b5;
     font-weight: bold;
 }
@@ -35,11 +40,12 @@
     border-radius: 20%;
     background-position: center;  
     text-align: center;
+    font-weight: 300;
 }
 
 .pagination__pages-number--active a {
     color: #fff;
-    font-weight: 300;
+    
 }
 
 .pagination__pages-number--active a:hover {color: #fff; font-weight: 300;}
@@ -47,10 +53,6 @@
 .pagination__pages-number--notactive a:hover {color: #656464; font-weight: inherit;}
 
 
-.pagination__pages-number {
-    list-style-type: none;
-    color: #221f1f;
-}
 
 .pagination__controls {
     margin-left: 10px;
