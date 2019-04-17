@@ -20,7 +20,7 @@
 .btn__enter {
   display: flex;
   justify-content: center;
-  width: 210px;
+  min-width: 210px;
   background-color: #fff;
   color: #4b73b5;
   font-weight: bold;

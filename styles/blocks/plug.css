@@ -25,9 +25,12 @@
 
 .сontainer-plug {
 	margin: 0 auto;
-	/*width: 660px;*/
+
 }
-.plug__text {width: 100%;}
+/*
+.plug__text {
+	max-width: 100%;
+}*/
 
 .plug__request {
 	font-weight: bold;

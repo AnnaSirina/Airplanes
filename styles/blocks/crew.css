@@ -17,7 +17,7 @@
 .crew__items {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    max-width: 30%;
     justify-content: flex-start;
     align-items: center;
     margin-left: 14px;  

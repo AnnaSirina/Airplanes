@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 
@@ -58,6 +58,7 @@ body {
 aside {
    max-width: 315px;
 }
+
 .header-aside { 
     font-size: 18px;
     font-weight: bold; 

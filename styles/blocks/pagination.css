@@ -35,8 +35,8 @@
 .pagination__pages-number--active {
     color: #fff;
     background-color:#4b73b5;
-    width: 23px;
-    height: 23px;
+    max-width: 23px;
+    max-height: 23px;
     border-radius: 20%;
     background-position: center;  
     text-align: center;

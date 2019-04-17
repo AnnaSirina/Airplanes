@@ -1,7 +1,6 @@
 .news { 
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
     margin-top: 7px; 
     margin-top: 0; 
 }
@@ -16,7 +15,7 @@
     justify-content: flex-start;
     list-style-type: none;
     margin-top: 14px; 
-    width: 270px;
+    max-width: 270px;
 }
 
 
@@ -62,6 +61,7 @@
     line-height: 1.5;
    
 }
-
-.news__description p 
-{width: 250px;}
+/*
+.news__description p {
+    max-width: 250px;
+}*/

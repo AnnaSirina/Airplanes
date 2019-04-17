@@ -83,7 +83,7 @@
     color: #221f1f;
     font-size: 18px;
     font-weight: 300;
-    width: 185px;
+    max-width: 185px;
     margin-top: 8px;
     margin-left: 30px;
     text-align: center;
